@@ -37,6 +37,7 @@ function App() {
     <>
       <div className="d1">
         <h1>Password Genetator</h1>
+        <br />
         <input 
         placeholder="Passward" 
         type="text" 
@@ -44,11 +45,12 @@ function App() {
         
         readOnly 
         ref={passwordRef}
-        />
-        <button
+        /> &nbsp; &nbsp;
+        <button class='b1'
         onClick={copyPasswordToClipboard}>copy</button>
         <br />
         <div>
+          <br />
           <input
             type="range"
             min={6}

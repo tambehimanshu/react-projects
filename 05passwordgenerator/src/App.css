@@ -1,5 +1,18 @@
 .d1{
-  border: 2px solid white;
+  margin-left: 100px;
+  width: 500px;
+  height: 500px;
+  border: 10px solid black;
   border-radius: 5px;
-  background-color: purple;
+  background-color:grey;
+  text-align: center;
+  padding: 30px;
+}
+.b1{
+  border: 1px solid black;
+  background-color: white;
+  padding: 4px;
+}
+.b1:hover{
+  opacity: 0.5;
 }
