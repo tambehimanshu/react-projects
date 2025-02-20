@@ -15,9 +15,11 @@ function App() {
   
  }
  const removeValue=()=>{
-counter=counter-1
-console.log("count remove is clicked");
-setCounter(counter)
+  if(counter>0){
+    counter =counter-1;
+    console.log("count remove is clicked")
+    setCounter(counter)
+  }
  }
   return (
     <>
